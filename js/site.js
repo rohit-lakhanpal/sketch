@@ -139,6 +139,9 @@ function clearCanvas() {
 
     // Save the cleared state
     saveDrawing();
+
+    // Ensure pen is selected after clearing
+    selectPen();
 }
 
 // Save the canvas drawing to local storage
